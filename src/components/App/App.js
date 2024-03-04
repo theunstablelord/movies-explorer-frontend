@@ -11,7 +11,7 @@ import Header from "../Header/Header";
 
 function App() {
   return (
-    <div className="page-container">
+    <div className="page">
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
