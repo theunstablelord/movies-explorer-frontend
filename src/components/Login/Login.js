@@ -11,7 +11,7 @@ function Login() {
       linkText="Регистрация"
       adress="/signup"
     >
-      <label className="window__form-label" htmlFor="useremail">E-mail</label>
+      <label className="window__form-label" htmlFor="user_email">E-mail</label>
       <input
         className="window__form-item"
         id="user_email"
@@ -21,7 +21,7 @@ function Login() {
         required
       />
       <span className="window__form-item-error">E-mail введен некорректно</span>
-      <label className="window__form-label" htmlFor="userpassword">Пароль</label>
+      <label className="window__form-label" htmlFor="user_password">Пароль</label>
       <input
         className="window__form-item"
         id="user_password"

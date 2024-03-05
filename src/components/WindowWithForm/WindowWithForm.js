@@ -16,7 +16,7 @@ function WindowWithForm({ title, children, buttonText, text, linkText, adress })
       </form>
       <p className="window__text">
         {text}
-        <Link to={adress} className="window__link" type="button">{linkText}</Link>
+        <Link to={adress} className="window__link">{linkText}</Link>
       </p>
     </div>
   );
